@@ -1,0 +1,36 @@
+
+            body{background-color: #f5f5f5 ;font-family: 'Lato', sans-serif;}
+            /*web class*/
+            .web{background-color: #222; color: #f5f5f5; padding-top: 0.1%;margin: auto}
+            .web ul{padding-bottom: 15%}
+            .web li{display: inline}
+            .web a{padding: 13px; text-decoration: none; color: #f5f5f5}
+            .web a:hover { color:#222;background-color: white;padding: 13px}
+            .web button{background-color: #f1c40f; color: #f5f5f5; border-radius: 5px; padding: 7px 14px ; border: none; margin-bottom: 15%}
+            .text{text-align: center}
+            
+            /*prices class*/
+            .prices_parent{text-align: center}
+            .prices_child{display: inline-block; color: black; background-color:  white; border-radius: 7% ; width: 15% ; text-align: center;margin: 0.3% }
+            .prices_child h4{color: #398f86}
+            .prices_child h3{ display:inline-block; text-align: center; padding: 8%; width: 30%;background-color: #ccc ; border-radius: 100%}
+            .prices_child button{background-color: #f1c40f; color: #f5f5f5; border-radius: 7px; padding: 7px; border-color: #f1c40f;}
+            
+            /* customer*/
+            .customer { color: black ; background-color: white; padding-bottom: 3% ; }
+            .customer p{width: 50%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 3%}
+            .customer li{display: inline;font-size: 200%; margin-left: 0.15%;margin-right: 0.15%; color: white;border-radius: 35%; padding: 2% 2.5%}
+            
+            /*son*/
+            .son{background-color: #222;color: #f5f5f5;padding-top: 2%; padding-bottom: 2%}
+            .son2{display: inline-block;width:20%}
+            .son2 img{ border-radius: 100% ; width: 70% ; height: 100%}
+            
+            /* join and form*/
+            .join {margin-bottom: 30px ;}
+            .join input{width: auto; height: 32px}
+            .join button,.form button{ border: none ; color: white; background-color: red; padding: 1% 2%; border-radius: 15%}
+            .form button{margin: 10px}
+            .form{background-color: #222 ; color: #f5f5f5; padding-top: 1% ; padding-bottom: 3%}
+            .form input{text-align: center; display: block; margin: auto ; width: 40%; height: 30px}
+       
