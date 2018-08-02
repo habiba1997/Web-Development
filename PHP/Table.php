@@ -45,12 +45,12 @@ function check($string)
     else{$error5="gender";}
 
     if ($error1==$error2 && $error2==$error3 && $error3==$error4 && $error4==$error5){}
-    else {header("Location:htmlform.php?$error1&$error2&$error3&$error4&$error5");}
+    else {header("Location:Form.php?$error1&$error2&$error3&$error4&$error5");}
     
     
 }
 else
-{header("Location:htmlform.php");}
+{header("Location:Form.php");}
 ?>
 
 <html>
