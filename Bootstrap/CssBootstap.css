@@ -1,0 +1,26 @@
+             body{font-family: 'Montserrat', sans-serif;background-color: #f2f2f2}
+            .mynav{background-color: rgba(0,0,0,0.5); color: black}
+            .navbar-center {margin: auto}
+           @media (max-width: 992px){
+               .label {font-size: 20px; padding: auto; text-align: center; margin: auto; display: block; width:30%;  background-color: #82b440;position: absolute;top: -155px;left: 30%;transform: translate(0%, 0px);}
+               .centered h3 {display: none}
+               .centered h2 { font-size: 15px; color: white;position: absolute;top: -100px;left: 25%;transform: translate(0%, 0px);}
+               .centered img{position: relative}
+              
+            }
+            .cont {text-align: center; position: relative; margin: inherit}
+            .centered {color: azure; position: absolute;top: 40%;left: 50%;text-align: center; transform: translate(-50%, -50%); }
+            .label{margin: auto; display: block; width:30%; padding-top: 10px ; padding-bottom: 10px; background-color: #82b440}
+            .marg {margin: 7%}
+            .parent h3{color: #555; margin: 5% 0.1%}
+            .parent h5, .parent p { color:#686868; margin: 5% 0.1%}
+            .green { text-align: center; color: #82b440 ;border: 2px solid #82b440;width: 80%; padding: 10px 0px; margin: 5% 0.1% }
+            .backg {text-align: center;  background-color: #82b440; color: #f2f2f2; margin: inherit; padding: 5% 0%}
+            .wid{margin: 2% 20%;}
+            .white{ width: 40%; text-align: center ;border: 2px solid #f2f2f2 ;margin: auto; display: block ; padding: 10px 0px;}
+            .end{background-color: #fff; margin: inherit; padding-bottom: 20px}
+            .end h1, .end h4{ color: #555 ;text-align: center; padding-top: 20px}
+            .border {border: 1px solid #dfdfdf}
+            .kard h5{color:#555;position: absolute; left: 16%; top: 5px ;display: inline }
+            .kard p{color: #686868}
+            .kard img{width: 10%; position: relative}
