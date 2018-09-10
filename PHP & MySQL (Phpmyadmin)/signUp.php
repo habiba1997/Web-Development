@@ -130,12 +130,12 @@ function check($string)
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <style>
         
-        body{ background-color: #622d39; color: white;  }
+        body{background-image: url('images.jpeg'); background-size: cover; color: white;  }
         .formaya{background-image: url(back2.png); background-size: cover;padding:5%}
-        form{  background-color: rgba(0,0,0,0.5); width:98% ; padding: 10% 30%;  ; border-radius:100% }
+        form{  background-color: rgba(255,255,255,0.3); width:98% ; padding: 10% 30%;  ; border-radius:100% }
         .inn{ width: 100%; height: 55px ; text-align: center;}
         span{text-align: center; color: #f36d94;} }
-        table{  background-color: rgba(0,0,0,0.5); padding: 2% ; width: 34%  }
+        table{  background-color: rgba(0,0,0,0.5); padding: 2% ; width: 34% ; display: inline-block; }
     </style>
 </head>
     <body>
@@ -179,7 +179,7 @@ function check($string)
             </div>
             <span> <?php if(isset($_GET['gender_error'])){ echo "Your gender is REQUIRED"; } ?> </span><br>
       
-            <input class="btn btn-danger btn-lg" type="submit" value="Sign Up" name="<?php 
+            <input class="btn btn-warning btn-lg text-light" type="submit" value="Sign Up" name="<?php 
             if(isset($_GET['act']))
             {  echo "edit"; }
             else 
