@@ -18,7 +18,3 @@ Learning to construct a Web Applications using PHP and MySQL database (XAMP)
 * sublime
 * XAMP
   
-=======
-# Web-Development
-Learning Front-end and Back-end Web development (html, Css, Bootstrap, Javascrpt, PHP, mySQL) 
->>>>>>> c6f998a6ce05819213a7f88029ad52c7a4fe2021
